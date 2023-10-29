@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage{animate}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\title{Synopsis: Calculator with UI}
+\author{Sushant Bhourjar}
+\date{\October 29/10/2023}
+\begin{document}
+
+\section{Introduction}
+This synopsis presents a Python project that implements a calculator application with a graphical user interface (GUI) built using the Tkinter library. The project focuses on creating a user-friendly and functional calculator capable of performing basic arithmetic operations.
+
+\section{Objective}
+The primary objectives of this project are as follows:
+\begin{itemize}
+    \item Develop a calculator with a graphical user interface using Python and Tkinter.
+    \item Implement basic arithmetic operations, including addition, subtraction, multiplication, and division.
+    \item Provide a clear cuser interface for input and displaying results.
+\begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{calProPY - Made with Clipchamp.gif}
+        \caption{Enter Caption}
+        \label{fig:enter-label}
+    \end{figure}
+    \item Enhance user experience by incorporating user-friendly design and functionality.
+\end{itemize}
+
+\section{Methodology}
+The project will be implemented using the following methodology:
+
+\begin{itemize}
+    \item \textbf{Python Programming:} Python will be used for the core logic of the calculator.
+    \item \textbf{Tkinter Library:} Tkinter will be utilized to create the graphical user interface for the calculator.
+    \item \textbf{UI Design:} The calculator's user interface will prioritize user experience, making it easy to use and visually appealing.
+    \item \textbf{Arithmetic Operations:} Basic arithmetic operations, including addition, subtraction, multiplication, and division, will be implemented in the Python code.
+    \item \textbf{Event Handling:} Event handling will be used to capture user input and perform calculations based on the user's selections.
+\end{itemize}
+
+\section{Features}
+The calculator will include the following features:
+
+\begin{itemize}
+    \item Buttons for digits 0-9.
+    \item Buttons for addition, subtraction, multiplication, and division.
+    \item Buttons for other operations like square root and percentage.
+    \item Buttons for memory functions (save, retrieve, clear, add, and subtract).
+    \item A clear button to reset the input.
+    \item An equals (=) button to calculate the result.
+    \item A display area to show the input and the calculated result.
+\end{itemize}
+
+\section{Conclusion}
+By the completion of this project, a fully functional calculator with a user-friendly graphical user interface will be created. This calculator will be capable of performing basic arithmetic operations and will provide an intuitive user experience.
+\begin{figure}
+  \centering
+  \animategraphics[autoplay, loop, width=0.8\textwidth]{<frame rate>}{calProPY.gif}{}{}
+  \caption{Output of project Calculator with UI}
+\end{figure}
+\end{document}
